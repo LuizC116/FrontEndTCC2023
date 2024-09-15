@@ -1,9 +1,9 @@
 # TRABALHO DE CONCLUSÃO DE CURSO 2023 - SISTEMA DE CHAMADOS O. R. SYSTEM (OPEN REQUEST SYSTEM)
 
-* Instituição  
+## Instituição  
 Etec Professor Milton Gazzetti
 
-* Curso  
+## Curso  
 Ensino Técnico de Informática Integrado ao Médio
 
 ![LogoSite](https://github.com/user-attachments/assets/fe325a40-ffe4-43e6-beff-61e3566ce2c5)
