@@ -5,7 +5,7 @@
 Etec Professor Milton Gazzetti
 Curso: Ensino Técnico de Informática Integrado ao Médio
 
-![ORDesign](https://github.com/user-attachments/assets/5f8750fb-70b8-4811-a174-0d21321a60cd)
+![LogoSite](https://github.com/user-attachments/assets/fe325a40-ffe4-43e6-beff-61e3566ce2c5)
 
 ## Integrantes do Grupo:
 
