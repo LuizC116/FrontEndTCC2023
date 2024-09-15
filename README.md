@@ -1,4 +1,4 @@
-# TRABALHO DE CONCLUSÃO DE CURSO 2023 - SISTEMA DE CHAMADOS O. R. SYSTEM (OPEN REQUEST SYSTEM)
+# Trabalho de Conclusão de Curso 2023 - O. R. System (Open Request System)
 
 ![LogoSite](https://github.com/user-attachments/assets/fe325a40-ffe4-43e6-beff-61e3566ce2c5)
 
