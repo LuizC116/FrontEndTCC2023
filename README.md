@@ -15,5 +15,5 @@ Ensino Técnico de Informática Integrado ao Médio
 * Monique Fernanda Barreto dos Santos
 * Vitória de Andrade Silva
 
-## IDE Usada
+## IDE Usada - FrontEnd
 [CodeSandBox](https://codesandbox.io/)
