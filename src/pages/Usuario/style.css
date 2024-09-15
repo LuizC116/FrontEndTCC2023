@@ -1,0 +1,254 @@
+.overflhid {
+  overflow-y: hidden;
+}
+@media only screen and (min-width: 1000px) {
+  .dusu1.card {
+    width: 17vw;
+    min-width: 246px;
+    margin-right: 10px;
+    height: 75vh;
+  }
+  .dusu2.card {
+    width: 70vw;
+    height: 75vh;
+  }
+  .itensusu tr {
+    background-color: white;
+    border-bottom: 2px solid #b4bceb;
+    height: 50px;
+  }
+  .itensusu tr td:nth-child(1) {
+    width: 50%;
+    text-indent: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .chnt {
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: solid #b4bceb;
+  }
+  .divusu {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+  .chnt th {
+    border-left: solid #b4bceb;
+    border-right: solid #b4bceb;
+  }
+  .itensusu tr td:nth-child(2) {
+    text-align: end;
+    width: 25%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .itensusu tr td:nth-child(3) {
+    text-align: end;
+    width: 25%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .itensusu {
+    width: 100%;
+    table-layout: fixed;
+  }
+  .itensusu tr:hover {
+    background: #cfd6e14d;
+    cursor: pointer;
+  }
+  .teste450 {
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .titulusua {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .titulusua2 {
+    font-size: 1.6rem;
+    text-indent: 24px;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .usuft {
+    width: 200px;
+    min-height: 266px;
+    height: 266px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: solid 2px;
+    border-color: #b4bceb;
+  }
+  .chapedidotxt {
+    width: 25vw;
+    font-size: 18px;
+    text-indent: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+  }
+  .usuinfo {
+    font-size: 1.1rem;
+  }
+  .overfl {
+    overflow-y: scroll;
+    height: 80vh;
+  }
+  .divisrusuch {
+    background-color: #b4bceb;
+    width: 100%;
+    height: 2px;
+  }
+  .chapedido {
+    text-indent: 60px;
+    width: 10vw;
+  }
+  .chapedidotxt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .divusflex {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+  .alimusu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #52575e;
+    color: white;
+    border-radius: 12px;
+  }
+}
+@media only screen and (max-width: 999px) {
+  .chnt {
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: solid #b4bceb;
+  }
+  .teste450 {
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+  }
+  .itensusu {
+    width: 100%;
+    table-layout: fixed;
+  }
+  .divusu {
+    margin-top: 89px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+  }
+  .bdinf {
+    background-color: white;
+    border-bottom: 2px solid #b4bceb;
+    height: 50px;
+  }
+  .alimusu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #52575e;
+    color: white;
+    border-radius: 12px;
+  }
+  .divisrusuch {
+    background-color: #b4bceb;
+    width: 100%;
+    height: 2px;
+  }
+  .itensusu tr td:nth-child(1) {
+    width: 40%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .usuft {
+    width: 90px;
+    height: 120px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: solid 2px;
+    border-color: #b4bceb;
+  }
+  .divusflex {
+    display: flex;
+    flex-direction: row;
+  }
+  .usuinfo {
+    margin-left: 10px;
+    width: 100%;
+    font-size: 1.1rem;
+    white-space: nowrap;
+    overflow: scroll;
+    text-overflow: ellipsis;
+  }
+  .dusu1 {
+    margin-top: 2vh;
+  }
+  .itensusu tr:hover {
+    background: #cfd6e14d;
+    cursor: pointer;
+  }
+  .dusu2.card {
+    margin-top: 2vh;
+    height: 56%;
+  }
+  .overfl {
+    overflow-y: scroll;
+  }
+  .itensusu {
+    width: 100%;
+  }
+  .itensusu tr td:nth-child(2) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: end;
+  }
+  .itensusu tr {
+    background-color: white;
+    border-bottom: 2px solid #b4bceb;
+    height: 40px;
+  }
+}

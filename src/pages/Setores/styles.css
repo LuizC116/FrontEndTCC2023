@@ -1,0 +1,160 @@
+.caixasetores {
+  width: 100%;
+}
+.setcompcor1 {
+  background-color: #53b28a;
+  color: white;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.setcompcor2 {
+  width: 100%;
+  background-color: #67d0a4;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 12px;
+}
+.setcompcor3 {
+  background-color: #3561a3;
+  color: white;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.setcompcor4 {
+  width: 100%;
+  background-color: #5a88cd;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 12px;
+}
+.setcompcor5 {
+  background-color: #9b4545;
+  color: white;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.setcompcor6 {
+  width: 100%;
+  background-color: #bb5353;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 12px;
+}
+.setcompcor7 {
+  background-color: #d68654;
+  color: white;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.setcompcor8 {
+  width: 100%;
+  background-color: #fea975;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 12px;
+}
+.setcompcor9 {
+  background-color: #6a7175;
+  color: white;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.setcompcor10 {
+  width: 100%;
+  background-color: #919496;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 12px;
+}
+.ovf {
+  height: 20vh;
+  overflow-y: scroll;
+}
+.mintabl1 {
+  width: 100%;
+  display: inherit;
+}
+.mintabl15 {
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid 1px;
+  width: 100%;
+}
+.mintabl2 {
+  width: 40%;
+  text-indent: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+.mintabl3 {
+  width: 30%;
+  justify-items: flex-end;
+  padding-right: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-grid;
+}
+.setcompcor1 summary::-webkit-details-marker,
+.setcompcor3 summary::-webkit-details-marker,
+.setcompcor5 summary::-webkit-details-marker,
+.setcompcor7 summary::-webkit-details-marker,
+.setcompcor9 summary::-webkit-details-marker {
+  display: none;
+}
+
+.setcompcor1 summary,
+.setcompcor3 summary,
+.setcompcor5 summary,
+.setcompcor7 summary,
+.setcompcor9 summary {
+  list-style: none;
+  padding: 1em;
+  padding-right: 1.5em;
+  position: relative;
+}
+
+.setcompcor1 summary::after,
+.setcompcor3 summary::after,
+.setcompcor5 summary::after,
+.setcompcor7 summary::after,
+.setcompcor9 summary::after {
+  content: "";
+  border-right: 4px solid;
+  border-bottom: 4px solid;
+  position: absolute;
+  right: 0.75em;
+  height: 0.75em;
+  width: 0.75em;
+  transform: rotate(45deg) translatey(-0.1em);
+  transition: 0.1s;
+}
+
+details[open].setcompcor1 > summary::after,
+details[open].setcompcor3 > summary::after,
+details[open].setcompcor5 > summary::after,
+details[open].setcompcor7 > summary::after,
+details[open].setcompcor9 > summary::after {
+  transform: rotate(-45deg);
+  transition: 0.1s;
+}
+details > div {
+  border-top: 1px solid;
+}
+.det {
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  line-height: 25px;
+  padding: 0px 5px 0px 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+}
+.det:hover,
+.det:active {
+  transition: 0.1s;
+  text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+.ordados {
+  width: 100%;
+  table-layout: fixed;
+  display: inline-table;
+}
+.ordados tr td:nth-child(1) {
+  font-size: 1.2rem;
+  width: 25%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.limpcamp {
+  border: none;
+  padding: 5px;
+  width: 100%;
+  font-size: 1.2rem;
+  color: white;
+  background: #a82121;
+  border-radius: 6px;
+}

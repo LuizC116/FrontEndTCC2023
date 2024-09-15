@@ -1,0 +1,10 @@
+.ladflexloc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 141.4%;
+  height: 120px;
+}
+.card2 {
+  width: 40vw;
+  min-width: 300px;
+}

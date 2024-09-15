@@ -1,0 +1,124 @@
+.tablenvsenha {
+  width: 100%;
+  font-size: 1.2rem;
+}
+.tablenvsenha tr td:nth-child(1) {
+  text-align: right;
+  width: 190px;
+  padding-right: 10px;
+}
+.inputcodver {
+  height: 100px;
+  background-color: #e9eaec;
+  width: 100%;
+  max-width: 285px;
+  display: flex;
+  border-style: solid;
+  color: black;
+  background-color: #e9eaec;
+  text-align: left;
+  outline: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 5rem;
+  text-align: center;
+  border-style: none;
+}
+.sbot22 {
+  background-color: #596ad3;
+  border: none;
+  height: 45px;
+  font-size: 1.2rem;
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+}
+.inputsign2 {
+  margin-bottom: 10px;
+  height: 35px;
+  width: 100%;
+  border-style: none;
+  color: black;
+  background-color: #e9eaec;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  text-indent: 10px;
+}
+@media only screen and (max-width: 1299px) {
+  .texts {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 13px;
+    margin-top: 7px;
+  }
+  .pad2 {
+    height: 45px;
+  }
+  .sbot3 {
+    margin-top: 2px;
+    height: 35px;
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    margin-right: 2.5%;
+    border-radius: 20px;
+    background-color: #52575e;
+    color: white;
+  }
+  .solct {
+    width: 100vw;
+    min-width: 370px;
+    max-width: 500px;
+    height: 335px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 40px 40px 40px 40px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .texts {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+  .sbot3 {
+    margin-bottom: 10px;
+    height: 30px;
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    margin-right: 2.5%;
+    border-radius: 20px;
+    background-color: #52575e;
+    color: white;
+  }
+  .solct {
+    width: 400px;
+    height: 290px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 0px 40px 40px 0px;
+  }
+  .pad2 {
+    height: 45px;
+  }
+}

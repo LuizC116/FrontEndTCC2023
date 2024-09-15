@@ -1,0 +1,18 @@
+.centro {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ftexto {
+  font-size: 25px;
+  color: #5c5c5c;
+}
+.ftexto2 {
+  font-size: 20px;
+  color: #5c5c5c;
+  font-style: italic;
+}
+.paddft {
+  padding-top: 10px;
+}

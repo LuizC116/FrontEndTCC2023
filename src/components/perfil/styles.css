@@ -1,0 +1,137 @@
+@keyframes animsub {
+  0% {
+    opacity: 0;
+    top: 60px;
+  }
+  100% {
+    opacity: 1;
+    top: 75px;
+  }
+}
+
+.subperf {
+  z-index: 1;
+  position: absolute;
+  background: white;
+  color: black;
+  top: 75px;
+  right: 35px;
+  width: 300px;
+  border-style: solid;
+  border-width: 7px;
+  animation-name: animsub;
+  animation-duration: 0.1s;
+  border-color: #d8e5f5;
+  border-radius: 30px;
+  padding-bottom: 5px;
+}
+.fperfil2 {
+  object-fit: cover;
+  width: 50px;
+  object-position: 50% 0%;
+  height: 50px;
+  border-radius: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+.exit {
+  width: 15px;
+  margin-bottom: 4px;
+  margin-right: 10px;
+}
+.botaoperf {
+  border: none;
+  text-transform: capitalize;
+  width: 80%;
+  background-color: transparent;
+}
+.nomeusu {
+  line-height: 20px;
+  margin-left: 10px;
+}
+.fperfil {
+  object-fit: cover;
+  width: 35px;
+  object-position: 100% 0;
+  height: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+.ordflex {
+  display: flex;
+  flex-direction: column;
+}
+.ordfunc {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.ordemail {
+  width: 210px;
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.spacdrop {
+  width: 310px;
+  height: 54px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.botaohead {
+  font-size: 15px;
+  /* botão de sair */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  border-radius: 14px;
+  width: 260px;
+  border-color: transparent;
+  color: #000000;
+  justify-content: center;
+}
+.botaohead:hover {
+  color: #2a5cdb;
+}
+.spacbotao2 {
+  display: flex;
+  flex-direction: column;
+}
+.overflow {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.nlink1 {
+  border-radius: 18px;
+  font-size: 20px;
+  line-height: 16px;
+  width: 180px;
+  text-align: center;
+  margin-left: 3vw;
+}
+.nlink1:hover {
+  color: #ffffff;
+  background-color: #5162d1;
+}
+.nlink2 {
+  border-radius: 18px;
+  font-size: 20px;
+  line-height: 16px;
+  width: 180px;
+  text-align: center;
+}
+.nlink2:hover {
+  color: #ffffff;
+  background-color: #5162d1;
+}
+.botaoclose {
+  border-color: transparent;
+  background-color: transparent;
+  position: absolute;
+  left: 256px;
+}

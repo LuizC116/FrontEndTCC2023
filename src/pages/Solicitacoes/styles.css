@@ -1,0 +1,7 @@
+.ordenador {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mx-auto.mt-3.mb-3.card.text {
+  min-height: 75vh;
+}

@@ -1,0 +1,19 @@
+.inpfoto {
+  display: none;
+}
+.inpfoto2 {
+  background-color: #596ad3;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 4px;
+  width: 100%;
+  text-align: center;
+  word-break: break-word;
+}
+.forlb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

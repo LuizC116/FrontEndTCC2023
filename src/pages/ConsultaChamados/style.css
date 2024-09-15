@@ -1,0 +1,249 @@
+.wrapper {
+  position: relative;
+  justify-content: center;
+  background-color: #e7f0fe;
+  margin-top: 140px;
+}
+.contentquery {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fundcons {
+  display: block;
+  margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 88vw;
+  height: 800px;
+  min-width: 400px;
+  position: relative;
+  margin-left: auto;
+
+  margin-right: auto;
+}
+.barpesquisa,
+.barpesquisa:active {
+  border-style: solid;
+  color: black;
+  background-color: #e9eaec;
+  text-align: left;
+  outline: none;
+  border-radius: 5px;
+  text-indent: 10px;
+  width: 100%;
+  height: 32.5px;
+}
+.subpesq {
+  color: white;
+  background-color: #788199;
+  outline: none;
+  width: 170px;
+  border-style: none;
+  height: 32.5px;
+  border-radius: 5px;
+  text-indent: 5px;
+  margin-left: 10px;
+}
+.titl {
+  text-align: center;
+  padding-top: 10px;
+}
+.divisor3 {
+  background-color: #d1d5f2;
+  height: 4px;
+  width: 100%;
+}
+.chatabela {
+  background-color: #ffffff;
+  padding: 1rem;
+  overflow: scroll;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-width: 2px;
+  table-layout: auto;
+  border-color: #d1d5f2; /* tira a linha borda da tabela*/
+}
+.chatabela tr td {
+  width: 80vw;
+}
+.chatabela caption {
+  text-transform: uppercase;
+  height: 2rem;
+  font-size: 1.2em;
+  table-layout: auto;
+}
+.alim {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #52575e;
+  color: white;
+  border-radius: 5px;
+}
+.chatabela th,
+.chatabela td,
+.chatabela caption {
+  padding: 12px;
+  text-align: center;
+} /*th= data do header; td= data da tabela*/
+
+.chatabela th {
+  background: #596ad3;
+  color: white;
+  font-weight: normal;
+}
+
+.chatabela tr {
+  height: 2rem;
+}
+.sel2 {
+  border: none;
+  background-color: #52575e;
+  color: white;
+  outline: none;
+}
+
+.chatabela tr td:nth-child(1),
+.chatabela tr td:nth-child(4),
+.chatabela tr td:nth-child(5) /*primeira, terceira,quarta e quinta coluna*/ {
+  text-align: center;
+}
+.chatabela tr td:nth-child(4) button:nth-child(1)  /*quarta coluna, primeiro botão */ {
+  margin-right: 10px;
+}
+.chatabela tr:nth-of-type(2n) /*2n= uma a cada duas linhas*/ {
+  background: rgba(171, 180, 212, 0.356);
+}
+.chatabela tr:hover /*hover=quando passa por cima da linha*/ {
+  background: rgba(42, 50, 100, 0.2);
+}
+.sbot12 {
+  margin-bottom: 10px;
+  height: 100%;
+  text-decoration: none;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #596ad3;
+  text-align: center;
+  font-size: 15px;
+  width: 120px;
+  border-radius: 10px;
+  color: white;
+}
+.sbot13 {
+  height: 32.5px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  background-color: #596ad3;
+  text-align: center;
+  font-size: 15px;
+  width: 106px;
+  border-radius: 5px;
+  color: white;
+  margin-left: 10px;
+}
+
+.chatheadmb {
+  display: none;
+}
+.subord {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 1199px) {
+  .wrapper {
+    position: relative;
+    justify-content: center;
+    background-color: #e7f0fe;
+    margin-top: 110px;
+  }
+}
+@media (max-width: 1100px) {
+  .chatabela tr td:nth-child(2),
+  .chatabela tr td:nth-child(3),
+  .chatabela tr td:nth-child(4) {
+    display: none;
+  }
+  .chatheadsk {
+    display: none;
+  }
+  .chatheadmb {
+    display: table-header-group;
+  }
+  .contentquery {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .barpesquisa,
+  .barpesquisa:active {
+    border-style: solid;
+    color: black;
+    background-color: #e9eaec;
+    text-align: left;
+    outline: none;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-indent: 10px;
+  }
+  .subpesq {
+    color: white;
+    background-color: #788199;
+    outline: none;
+    border-style: none;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+  }
+  .subord {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .alim {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 80vw;
+    background-color: #52575e;
+    color: white;
+    border-radius: 5px;
+    align-items: flex-start;
+  }
+  /*.tabela {
+    min-width: 100%;
+  }
+  .tabela tr td {
+    display: grid;
+    grid-template-columns: 1ch auto;
+  }
+  .tabela tr td:nth-child(1):before,
+  .tabela tr td:nth-child(2):before,  before= pseudo elemento do css, só é exibido quando vc altera a propriedade content 
+  .tabela tr td:nth-child(3):before {
+    content: attr(data-cell);
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  .tabela tr td:nth-child(1),
+  .tabela tr td:nth-child(3),
+  .tabela tr td:nth-child(4) primeira, terceira e quarta coluna {
+  }
+  .tabela tr td:nth-child(4) {
+    grid-template-columns: auto auto; 
+  }*/
+}

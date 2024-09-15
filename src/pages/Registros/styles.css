@@ -1,0 +1,17 @@
+.ordenador {
+  display: flex;
+  flex-wrap: wrap;
+}
+.subpesq2 {
+  color: white;
+  background-color: #788199;
+  outline: none;
+  border-style: none;
+  padding: 2px;
+  overflow: ellipse;
+  display: flex;
+  min-width: 20px;
+  flex-direction: row;
+  border-radius: 5px;
+  margin-left: 10px;
+}

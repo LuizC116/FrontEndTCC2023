@@ -1,0 +1,108 @@
+.titl {
+  text-align: center;
+  padding-top: 10px;
+}
+.divisor3 {
+  background-color: #d1d5f2;
+  height: 4px;
+  width: 100%;
+}
+.usutabela {
+  background-color: #ffffff;
+  padding: 1rem;
+  overflow: scroll;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  table-layout: auto;
+
+  border-width: 2px;
+  border-color: #d1d5f2; /* tira a linha borda da tabela*/
+}
+.usutabela tr td {
+  width: 80vw;
+}
+.usutabela caption {
+  text-transform: uppercase;
+  height: 2rem;
+  font-size: 1.2em;
+}
+.usutabela th,
+.usutabela td,
+.usutabela caption {
+  padding: 12px;
+  text-align: center;
+} /*th= data do header; td= data da tabela*/
+
+.usutabela th {
+  background: #596ad3;
+  color: white;
+  font-weight: normal;
+}
+
+.usutabela tr {
+  height: 2rem;
+}
+.sel2 {
+  border: none;
+  background-color: #52575e;
+  color: white;
+}
+
+.usutabela tr td:nth-child(1),
+.usutabela tr td:nth-child(3),
+.usutabela tr td:nth-child(4),
+.usutabela tr td:nth-child(5) /*primeira, terceira,quarta e quinta coluna*/ {
+  text-align: center;
+}
+.usutabela tr td:nth-child(4) button:nth-child(1)  /*quarta coluna, primeiro botão */ {
+  margin-right: 10px;
+}
+.usutabela tr:nth-of-type(2n) /*2n= uma a cada duas linhas*/ {
+  background: rgba(171, 180, 212, 0.356);
+}
+.usutabela tr:hover /*hover=quando passa por cima da linha*/ {
+  background: rgba(42, 50, 100, 0.2);
+}
+.usutheadmb {
+  display: none;
+}
+@media (max-width: 1100px) {
+  .usutabela tr td:nth-child(3),
+  .usutabela tr td:nth-child(4),
+  .usutabela tr td:nth-child(5) {
+    display: none;
+  }
+  .usutheadsk {
+    display: none;
+  }
+  .usutheadmb {
+    display: table-header-group;
+  }
+
+  /*
+  .tabela {
+    min-width: 100%;
+  }
+  .tabela thead {
+    display: none;
+  }
+  .tabela tr td {
+    display: grid;
+    grid-template-columns: 1ch auto;
+  }
+  .tabela tr td:nth-child(1):before,
+  .tabela tr td:nth-child(2):before, before= pseudo elemento do css, só é exibido quando vc altera a propriedade content 
+  .tabela tr td:nth-child(3):before {
+    content: attr(data-cell);
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  .tabela tr td:nth-child(1),
+  .tabela tr td:nth-child(3),
+  .tabela tr td:nth-child(4) primeira, terceira e quarta coluna {
+  }
+  .tabela tr td:nth-child(4) {
+    grid-template-columns: auto auto;
+  } */
+}

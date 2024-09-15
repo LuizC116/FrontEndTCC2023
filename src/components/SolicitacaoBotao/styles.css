@@ -1,0 +1,32 @@
+.botaosolicitacao {
+  font-size: 15px;
+  /* botão de sair */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  width: 260px;
+  border-color: transparent;
+  color: #000000;
+  justify-content: center;
+}
+.botaosolicitacao:hover {
+  color: #2a5cdb;
+}
+
+@media only screen and (max-width: 1399px) {
+  .botaosolicitacao {
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    font-size: 1.3rem;
+    background-color: #ffffff;
+  }
+  .botaosolicitacao:hover,
+  .botaosolicitacao:active {
+    border: none;
+    background-color: #d8e5f5;
+    transition: 0.1s;
+    color: #2a5cdb;
+  }
+}

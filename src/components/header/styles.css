@@ -1,0 +1,480 @@
+.offcanv {
+  background-color: #ffffff;
+  color: #000000;
+  width: 60vw;
+  max-width: 400px;
+  min-width: 285px;
+}
+.fechar {
+  color: #dee2e6;
+}
+
+@media only screen and (min-width: 1400px) {
+  .w-100.d-flex.flex-column {
+    margin-top: 29px;
+  }
+  .headerfixo {
+    width: 100%;
+    background-color: #ffffff;
+    height: 105px;
+    top: 0px;
+    position: fixed;
+    z-index: 3;
+    filter: drop-shadow(0px 1px 0px #48545c4d);
+  }
+  .botaoheadsig {
+    border-radius: 17px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: solid;
+    font-size: 16px;
+    border-color: black;
+    border-width: 1px;
+  }
+  .botaoheadsig:hover {
+    background-color: black;
+    border-color: transparent;
+    color: white;
+    font-weight: bold;
+    transition: 0.1s;
+    text-indent: -5px;
+  }
+  .botaoheadsig:hover::after {
+    content: "⨠";
+    vertical-align: baseline;
+    transition: 0.1s;
+    opacity: 1;
+  }
+  .w-100.d-flex.flex-row {
+    margin-bottom: 20px;
+  }
+  .headmobile,
+  .headmobile2 {
+    display: none;
+  }
+  .logotipo {
+    width: 180px;
+    margin-left: -10px;
+    padding-left: 40px;
+    margin-bottom: 13px;
+  }
+  .headitem1.nav-link {
+    width: 200px;
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 60px;
+    color: #707070;
+  }
+  .headitem1.nav-link:hover {
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 60px;
+    color: white;
+    background-color: #596ad3;
+  }
+  .headitem1.nav-link:focus {
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+    border-radius: 60px;
+    font-weight: bold;
+    background-color: #596ad3;
+  }
+  .headitem2.nav-link {
+    width: 150px;
+    background-color: white;
+    margin-top: -10px;
+    height: 40px;
+    z-index: 1;
+    font-size: 17px;
+    margin-left: -5px;
+    color: #707070;
+  }
+  .headitem2.nav-link:hover::before,
+  .headitem2.nav-link:focus::before {
+    content: "●  ";
+    vertical-align: baseline;
+    transition: 0.1s;
+    opacity: 1;
+  }
+  .headitem2.nav-link::before {
+    content: "●  ";
+    vertical-align: baseline;
+    opacity: 0;
+  }
+  .headitem2.nav-link:hover,
+  .headitem2.nav-link:active,
+  .headitem2.nav-link:focus {
+    width: 145px;
+    height: 37px;
+    color: black;
+    margin-top: -10px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    transition: 0.1s;
+    font-weight: bold;
+    filter: drop-shadow(0px 3px 0px rgb(0, 0, 0));
+  }
+  .headitemrm {
+    width: 185px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -10px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: -5px;
+    z-index: 1;
+    color: #707070;
+  }
+  .headitemrm:hover::before,
+  .headitemrm:focus::before {
+    content: "●  ";
+    vertical-align: baseline;
+    transition: 0.1s;
+    opacity: 1;
+  }
+  .headitemrm::before {
+    content: "●  ";
+    vertical-align: baseline;
+    opacity: 0;
+  }
+  .headitemrm:hover,
+  .headitemrm:active,
+  .headitemrm:focus {
+    width: 185px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px;
+    transition: 0.1s;
+    height: 37px;
+    font-weight: bold;
+    filter: drop-shadow(0px 3px 0px rgb(0, 0, 0));
+  }
+  .spac2 {
+    width: 20px;
+  }
+  .nomeusu {
+    display: flex;
+    flex-direction: column;
+  }
+  .headcent {
+    vertical-align: middle;
+  }
+  .headitem1 {
+    border-radius: 60px;
+  }
+  .link1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .link2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    margin-left: -145px;
+  }
+  .nlink3 {
+    display: none;
+  }
+  .nlink3:hover {
+    /*Botão do header responsivo - celular */
+    color: #ffffff;
+    background-color: #596ad3;
+    border-radius: 20px;
+  }
+
+  .nlink3:focus {
+    /*Botão do header responsivo - celular */
+    color: #ffffff;
+    background-color: #596ad3;
+    border-radius: 20px;
+  }
+
+  .drop {
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  .dropit {
+    margin-left: 12px;
+    color: #dbe1e7;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 20px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-indent: -12px;
+  }
+  .dropit:hover {
+    color: #ffffff;
+    width: 90%;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 10px;
+    transition: 0.1s;
+  }
+  .fperfil1 {
+    object-fit: cover;
+    width: 35px;
+    object-position: 50% 0;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 100%;
+  }
+  .mdvis {
+    color: #5c5c5c;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 1399px) {
+  .subperfmobil {
+    width: 370px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  .headerfixo {
+    width: 100%;
+    background-color: #ffffff;
+    height: 75px;
+    top: 0px;
+    position: fixed;
+    z-index: 3;
+    filter: drop-shadow(0px 1px 0px #48545c4d);
+  }
+  div.offcanvas.offcanvas-end {
+    width: 60vw;
+    max-width: 400px;
+    min-width: 285px;
+  }
+  div.offcanvas-body {
+    overflow: hidden;
+    flex-grow: 1;
+    padding: 0;
+    overflow-y: auto;
+    width: 60vw;
+    max-width: 400px;
+    min-width: 285px;
+  }
+  .nomeusu.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    align-items: center;
+  }
+  .headmobile2 {
+    border: solid;
+    border-color: transparent;
+    border-top: solid #d8e5f5;
+    border-bottom: solid #d8e5f5;
+    border-width: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .botaoheadsigmb {
+    background-color: transparent;
+    color: black;
+    border: solid;
+    width: 90%;
+    border-color: black;
+    border-width: 3px;
+    padding: 6px;
+    vertical-align: middle;
+    border-radius: 10px;
+    height: 40px;
+  }
+  .mdvis {
+    margin-bottom: 10px;
+    color: #5c5c5c;
+  }
+  .botaoheadsigmb:hover {
+    background-color: black;
+    color: white;
+    transition: 0.1s;
+    text-indent: -4px;
+  }
+  .botaoheadsigmb:hover::after {
+    color: white;
+    transition: 0.1s;
+    content: "⨠";
+  }
+  .ordflexmobil {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+  }
+  .spacdivmobil {
+    width: 100px;
+  }
+  .perfildiv {
+    width: 215px;
+    height: 90px;
+    align-items: center;
+  }
+  .cargmobil {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  .logotipo {
+    width: 180px;
+    margin-left: 10px;
+  }
+
+  .droperfil {
+    padding-right: 160px;
+  }
+  .botheadmobil {
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    font-size: 1.3rem;
+    background-color: #ffffff;
+  }
+  .linkheadmobil12 {
+    border: none;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 1.3rem;
+    background-color: #ffffff;
+  }
+  .linkheadmobil12:hover {
+    border: none;
+    background-color: #d8e5f5;
+    transition: 0.1s;
+    color: #2a5cdb;
+  }
+  .botheadmobil:hover,
+  .botheadmobil:active {
+    border: none;
+    background-color: #d8e5f5;
+    transition: 0.1s;
+    color: #2a5cdb;
+  }
+  .emamobil {
+    width: 80%;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  div.offcanvas-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 30px 10px 00px;
+  }
+  .fperfilmob {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+  .dropdown-menu.show {
+    border: none;
+    border-radius: 0px;
+  }
+  .usu {
+    display: flex;
+    flex-direction: row;
+  }
+  .linkmobi.nav-link {
+    width: 100%;
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .linkmobi.nav-link:hover {
+    width: 100%;
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .dropdownmobil {
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    line-height: 20px;
+  }
+  .nav-link:hover,
+  .dropdownmobil:hover,
+  .dropdownmobil:visited {
+    /*Botão do header responsivo - celular */
+    color: #ffffff;
+    background-color: #596ad3;
+  }
+  .botaoperf {
+    border: none;
+    width: 80%;
+    background-color: transparent;
+  }
+  .drop {
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  .dropit.dropdown-item {
+    height: 29px;
+    margin-bottom: 10px;
+    color: #707070;
+    font-size: 22px;
+    background-color: #ffffff;
+    line-height: 20px;
+    width: 100%;
+    align-items: center;
+  }
+  .dropit.dropdown-item:hover,
+  .dropit.dropdown-item:active {
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    background-color: #ffffff;
+    filter: drop-shadow(0px 3px 0px rgb(0, 0, 0));
+    transition: 0.1s;
+  }
+  .dropit.dropdown-item:hover::before,
+  .dropit.dropdown-item:focus::before {
+    content: "●  ";
+    vertical-align: baseline;
+    transition: 0.1s;
+    opacity: 1;
+  }
+  .dropit.dropdown-item::before {
+    content: "●  ";
+    vertical-align: baseline;
+    opacity: 0;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .headesktp {
+    display: none;
+  }
+  .ordflexmobil2 {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+  }
+}

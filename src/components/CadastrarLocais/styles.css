@@ -1,0 +1,70 @@
+.botloc {
+  position: fixed;
+  bottom: 90px;
+  left: 1.7vw;
+  border: none;
+  line-height: 0px;
+  background-color: #ab2b2c;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  width: 200px;
+  height: 40px;
+  z-index: 2;
+}
+.listagem {
+  font-size: 19px;
+  width: 100%;
+  text-align: center;
+}
+.botloc:hover {
+  line-height: 0px;
+  bottom: 88px;
+  left: 1.9vw;
+  transition: 0.1s;
+}
+.botloc::after {
+  content: " Cadastrar Local";
+}
+.listlocais {
+  background-color: #e9eaec;
+  min-height: 30vh;
+}
+.thd {
+  width: 85vw;
+  background-color: rgb(248, 248, 248);
+}
+.listlocaiscrp {
+  border-radius: 7px;
+  height: 30vh;
+  overflow-y: scroll;
+}
+.listagem tr {
+  border-bottom: solid rgb(207, 207, 207);
+}
+.listagem tr td:nth-child(2) {
+  text-align: left;
+  text-indent: 10px;
+}
+@media (max-width: 1000px) {
+  .botloc {
+    position: fixed;
+    border: none;
+    background-color: #ab2b2c;
+    color: white;
+    font-size: 2rem;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    bottom: 105px;
+    left: 1.5vw;
+  }
+  .botloc:hover {
+    position: fixed;
+    bottom: 100px;
+    left: 2vw;
+  }
+  .botloc::after {
+    content: "";
+  }
+}

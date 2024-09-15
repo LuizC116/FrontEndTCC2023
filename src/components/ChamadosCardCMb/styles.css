@@ -1,0 +1,35 @@
+.titheaderchapmb {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 22px;
+  line-height: 26px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+.nmaechapmb {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  width: 100%;
+  line-height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  color: grey;
+}
+.nmaechap2mb {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  width: 100%;
+  line-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  color: grey;
+}

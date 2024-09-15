@@ -1,0 +1,63 @@
+@media only screen and (min-width: 1300px) {
+  .sbotfinal {
+    margin-top: -5px;
+    height: 30px;
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    margin-right: 2.5%;
+    border-radius: 20px;
+    background-color: #52575e;
+    color: white;
+  }
+  .sbotfinal:hover {
+    color: white;
+  }
+  .solct2 {
+    width: 400px;
+    height: 290px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 0px 40px 40px 0px;
+  }
+}
+@media only screen and (max-width: 1299px) {
+  .solct2 {
+    width: 100vw;
+    min-width: 370px;
+    max-width: 500px;
+    height: 295px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 40px 40px 40px 40px;
+  }
+  .sbotfinal {
+    height: 35px;
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    margin-right: 2.5%;
+    border-radius: 20px;
+    background-color: #52575e;
+    color: white;
+  }
+  .sbotfinal:hover {
+    color: white;
+  }
+}

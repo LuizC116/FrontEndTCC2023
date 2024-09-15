@@ -1,0 +1,79 @@
+.cardchamados.card {
+  background-color: white;
+  width: 100%;
+}
+.titheaderchap {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+  line-height: 17px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+.nmaechap {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  width: 100%;
+  line-height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  color: grey;
+}
+.nmaechap2 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  width: 100%;
+  line-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  color: grey;
+}
+.divisor4 {
+  background-color: #d1d5f2;
+  height: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: 100%;
+}
+div.modal-dialog {
+  width: 80vw;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+div.modal-content {
+  border-radius: 12px;
+}
+.fotochamadofit2 {
+  width: 100%;
+  object-fit: contain;
+  height: 250px;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  .cardchamados.card {
+    background-color: white;
+    width: 100%;
+    height: 150px;
+  }
+  .fotochamadofit2 {
+    width: 100%;
+    object-fit: contain;
+    height: 206px;
+    align-items: center;
+  }
+  div.modal-dialog {
+    width: 90vw;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
